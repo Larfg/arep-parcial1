@@ -36,7 +36,7 @@ public class HttpServer {
             "    </head>" +
             "        <h1>Hola dime que necesitas</h1>" +
             "        <form action=\"/hellopost\">" +
-            "            <label for=\"postname\">Name:</label><br>" +
+            "            <label for=\"postname\">Mensaje:</label><br>" +
             "            <input type=\"text\" id=\"postname\" name=\"name\" value=\"John\"><br><br>" +
             "            <input type=\"button\" value=\"Submit\" onclick=\"loadPostMsg(postname)\">" +
             "        </form>" +
